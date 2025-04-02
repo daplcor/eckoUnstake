@@ -49,6 +49,9 @@ export const getPairs = async () => {
   try {
     let data = await pactFetchLocal(`(${KADDEX_NAMESPACE}.exchange.get-pairs)`);
     if (data) {
+      data = data.filter((token) => 
+        token !== "coin:n_95d7fe012aa7e05c187b3fc8c605ff3b1a2c521d.MesutÖzilDönerKebabMerkel42Inu"
+      );
       return data;
     }
   } catch (e) {

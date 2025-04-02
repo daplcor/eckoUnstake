@@ -59,8 +59,6 @@ export { ReactComponent as BurnedIcon } from './images/shared/burned.svg';
 export { ReactComponent as DaoIcon } from './images/shared/dao.svg';
 export { ReactComponent as CandlestickChartIcon } from './images/shared/candlestick-chart.svg';
 export { ReactComponent as LineChartIcon } from './images/shared/line-chart.svg';
-export { ReactComponent as NccLogo } from './images/shared/ncc-logo.svg';
-export { ReactComponent as NccLogoLightMode } from './images/shared/ncc-logo-light.svg';
 export { ReactComponent as WarningIcon } from './images/header/warning-icon.svg';
 export { ReactComponent as PumpIcon } from './images/header/petrol-pump.svg';
 export { ReactComponent as ChainIcon } from './images/shared/chain.svg';
